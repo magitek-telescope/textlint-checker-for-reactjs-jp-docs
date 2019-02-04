@@ -1,0 +1,12 @@
+{
+  "name": "textlint-checker-for-reactjs-jp-docs",
+  "description": "textlint checker for ja.reactjs.org",
+  "version": "0.1.0",
+  "main": "rules/textlint-rule-reactjs-jp-docs/index.js",
+  "devDependencies": {
+    "textlint": "^4.0.0"
+  },
+  "scripts": {
+    "test": "textlint --rulesdir ./rules/textlint-rule-reactjs-jp-docs sample/*.md"
+  }
+}
